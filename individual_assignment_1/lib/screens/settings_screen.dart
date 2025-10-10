@@ -34,7 +34,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
 
   @override
   Widget build(BuildContext context) {
-    const storageUsed = 'shared_preferences (JSON)';
     return Padding(
       padding: const EdgeInsets.all(12),
       child: Column(
