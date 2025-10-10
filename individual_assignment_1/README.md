@@ -1,16 +1,54 @@
-# individual_assignment_1
+# Study Planner App (Flutter)
 
-A new Flutter project.
+A clean and simple **Study Planner App** built with **Flutter**, designed to help students organize their daily study tasks effectively.  
+This project demonstrates the use of **multi-screen navigation**, **local storage (SharedPreferences)**, **calendar integration**, and **Material Design UI**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+##  Features
 
-A few resources to get you started if this is your first Flutter project:
+### 1. Task Management
+- Add, view, and manage tasks with:
+  - **Title** (required)
+  - **Description** (optional)
+  - **Due Date** (required)
+  - **Reminder Time** (optional)
+- View all tasks for **today** on a dedicated screen.
+- **Edit or delete** tasks anytime.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 2. Calendar View
+- Displays a **monthly calendar** using `table_calendar`.
+- Days with tasks are **highlighted**.
+- Tap a date to view tasks scheduled for that day.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 3. Reminder System
+- Optional reminders for each task.
+
+### 4. Local Storage (Persistence)
+- Tasks are stored locally using **SharedPreferences** (as JSON).
+- Data persists after closing and reopening the app.
+- Reliable and lightweight — no internet connection required.
+
+### 5. Navigation and Screens
+- Uses a **BottomNavigationBar** with three main screens:
+  1. **Today** – View and manage today's tasks.
+  2. **Calendar** – Monthly overview of all tasks.
+  3. **Settings** – Manage app preferences and reminder options.
+
+### 6. Settings
+- Toggle notifications on or off.
+- Display which storage method is used (SharedPreferences).
+  
+---
+
+## Installation & Setup
+
+###  1. Prerequisites
+- [Flutter SDK](https://flutter.dev/docs/get-started/install) installed
+- Android Studio or VS Code
+- Emulator or physical Android device
+
+### 2. Clone the repository
+```bash
+git clone 
+cd 
