@@ -50,5 +50,5 @@ This project demonstrates the use of **multi-screen navigation**, **local storag
 
 ### 2. Clone the repository
 ```bash
-git clone 
-cd 
+git clone https://github.com/Akhigbesimeon/Individual_Assignment_1.git
+cd Individual_Assignment_1
